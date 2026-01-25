@@ -1,0 +1,266 @@
+{
+  "conll03_xml_train_alpaca": {
+    "file_name": "conll03_xml_train_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "conll03_xml_dev_alpaca": {
+    "file_name": "conll03_xml_dev_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "conll03_xml_test_alpaca": {
+    "file_name": "conll03_xml_test_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "genia_xml_train_alpaca": {
+    "file_name": "genia_xml_train_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "genia_xml_dev_alpaca": {
+    "file_name": "genia_xml_dev_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "genia_xml_test_alpaca": {
+    "file_name": "genia_xml_test_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "genia_offset_json_train_alpaca": {
+    "file_name": "genia_offset_json_train_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "genia_offset_json_dev_alpaca": {
+    "file_name": "genia_offset_json_dev_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "genia_offset_json_test_alpaca": {
+    "file_name": "genia_offset_json_test_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "genia_bracketed_train_alpaca": {
+    "file_name": "genia_bracketed_train_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "genia_bracketed_dev_alpaca": {
+    "file_name": "genia_bracketed_dev_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "genia_bracketed_test_alpaca": {
+    "file_name": "genia_bracketed_test_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "genia_occurrence_index_train_alpaca": {
+    "file_name": "genia_occurrence_index_train_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "genia_occurrence_index_dev_alpaca": {
+    "file_name": "genia_occurrence_index_dev_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "genia_occurrence_index_test_alpaca": {
+    "file_name": "genia_occurrence_index_test_alpaca.json",
+    "formatting": "alpaca"
+  },
+    "genia_json_train_alpaca": {
+    "file_name": "genia_json_train_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "genia_json_dev_alpaca": {
+    "file_name": "genia_json_dev_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "genia_json_test_alpaca": {
+    "file_name": "genia_json_test_alpaca.json",
+    "formatting": "alpaca"
+  }, 
+  "conll03_json_train_alpaca": {
+    "file_name": "conll03_json_train_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "conll03_json_dev_alpaca": {
+    "file_name": "conll03_json_dev_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "conll03_json_test_alpaca": {
+    "file_name": "conll03_json_test_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "conll03_offset_json_train_alpaca": {
+    "file_name": "conll03_offset_json_train_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "conll03_offset_json_dev_alpaca": {
+    "file_name": "conll03_offset_json_dev_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "conll03_offset_json_test_alpaca": {
+    "file_name": "conll03_offset_json_test_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "conll03_occurrence_index_train_alpaca": {
+    "file_name": "conll03_occurrence_index_train_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "conll03_occurrence_index_dev_alpaca": {
+    "file_name": "conll03_occurrence_index_dev_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "conll03_occurrence_index_test_alpaca": {
+    "file_name": "conll03_occurrence_index_test_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "conll03_bracketed_train_alpaca": {
+    "file_name": "conll03_bracketed_train_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "conll03_bracketed_dev_alpaca": {
+    "file_name": "conll03_bracketed_dev_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "conll03_bracketed_test_alpaca": {
+    "file_name": "conll03_bracketed_test_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "conll2003-so_xml_train_alpaca": {
+    "file_name": "conll2003-so_xml_train_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "conll2003-so_xml_dev_alpaca": {
+    "file_name": "conll2003-so_xml_dev_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "conll2003-so_xml_test_alpaca": {
+    "file_name": "conll2003-so_xml_test_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "conll2003-se_xml_train_alpaca": {
+    "file_name": "conll2003-se_xml_train_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "conll2003-se_xml_dev_alpaca": {
+    "file_name": "conll2003-se_xml_dev_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "conll2003-se_xml_test_alpaca": {
+    "file_name": "conll2003-se_xml_test_alpaca.json",
+    "formatting": "alpaca"
+  },
+    "ace2005_xml_train_alpaca": {
+    "file_name": "ace2005_xml_train_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ace2005_xml_dev_alpaca": {
+    "file_name": "ace2005_xml_dev_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ace2005_xml_test_alpaca": {
+    "file_name": "ace2005_xml_test_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ace2005_bracketed_train_alpaca": {
+    "file_name": "ace2005_bracketed_train_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ace2005_bracketed_dev_alpaca": {
+    "file_name": "ace2005_bracketed_dev_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ace2005_bracketed_test_alpaca": {
+    "file_name": "ace2005_bracketed_test_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ace2005_offset_json_train_alpaca": {
+    "file_name": "ace2005_offset_json_train_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ace2005_offset_json_dev_alpaca": {
+    "file_name": "ace2005_offset_json_dev_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ace2005_offset_json_test_alpaca": {
+    "file_name": "ace2005_offset_json_test_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ace2005_occurrence_index_train_alpaca": {
+    "file_name": "ace2005_occurrence_index_train_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ace2005_occurrence_index_dev_alpaca": {
+    "file_name": "ace2005_occurrence_index_dev_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ace2005_occurrence_index_test_alpaca": {
+    "file_name": "ace2005_occurrence_index_test_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ace2005_json_train_alpaca": {
+    "file_name": "ace2005_json_train_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ace2005_json_dev_alpaca": {
+    "file_name": "ace2005_json_dev_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ace2005_json_test_alpaca": {
+    "file_name": "ace2005_json_test_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ontonotes5_xml_train_alpaca": {
+    "file_name": "ontonotes5_xml_train_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ontonotes5_xml_dev_alpaca": {
+    "file_name": "ontonotes5_xml_dev_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ontonotes5_xml_test_alpaca": {
+    "file_name": "ontonotes5_xml_test_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ontonotes5_bracketed_train_alpaca": {
+    "file_name": "ontonotes5_bracketed_train_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ontonotes5_bracketed_dev_alpaca": {
+    "file_name": "ontonotes5_bracketed_dev_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ontonotes5_bracketed_test_alpaca": {
+    "file_name": "ontonotes5_bracketed_test_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ontonotes5_json_train_alpaca": {
+    "file_name": "ontonotes5_json_train_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ontonotes5_json_dev_alpaca": {
+    "file_name": "ontonotes5_json_dev_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ontonotes5_json_test_alpaca": {
+    "file_name": "ontonotes5_json_test_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ontonotes5_offset_json_train_alpaca": {
+    "file_name": "ontonotes5_offset_json_train_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ontonotes5_offset_json_dev_alpaca": {
+    "file_name": "ontonotes5_offset_json_dev_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ontonotes5_offset_json_test_alpaca": {
+    "file_name": "ontonotes5_offset_json_test_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ontonotes5_occurrence_index_train_alpaca": {
+    "file_name": "ontonotes5_occurrence_index_train_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ontonotes5_occurrence_index_dev_alpaca": {
+    "file_name": "ontonotes5_occurrence_index_dev_alpaca.json",
+    "formatting": "alpaca"
+  },
+  "ontonotes5_occurrence_index_test_alpaca": {
+    "file_name": "ontonotes5_occurrence_index_test_alpaca.json",
+    "formatting": "alpaca"
+  }
+}

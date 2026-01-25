@@ -1,0 +1,17 @@
+model: hf
+model_args:
+  pretrained: /path/to/base/model
+  dtype: float16
+  peft: /path/to/lora/weight
+
+tasks:
+  - gsm8k #task
+
+batch_size: auto                                
+device: cuda:0                              
+
+output_path: /path/to/output
+log_samples: true
+
+apply_chat_template: true
+fewshot_as_multiturn: true
