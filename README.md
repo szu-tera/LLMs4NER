@@ -2,7 +2,7 @@
   
 # Assessment of Generative Named Entity Recognition in the Era of Large Language Models
 
-[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/#TODO)
+[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2601.17898)
 [![Github](https://img.shields.io/badge/code-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/szu-tera/LLMs4NER)
 
 <div align="center" style="font-family: Arial, sans-serif;">
@@ -116,10 +116,10 @@ lm-eval run --config evaluation/eval_config.yaml # evaluate
 If you find this work useful for your research, please consider citing our paper:
 
 ```bibtex
-@article{#TODO,
+@article{zhan2026assessmentgenerativenamedentity,
   title={Assessment of Generative Named Entity Recognition in the Era of Large Language Models},
   author={Zhan, Qi and Wang, Yile and Huang, Hui},
-  journal={#TODO},
+  journal={arXiv preprint arXiv:2601.17898},
   year={2026}
 }
 ```
