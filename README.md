@@ -28,17 +28,43 @@
 
 ## 📌Overview
 
-We conduct a systematic evaluation of open-source LLMs on both flat and nested NER tasks. We investigate several research questions including the performance gap between generative NER and traditional NER models, the impact of output formats, whether LLMs rely on memorization, and the preservation of general capabilities after fine-tuning. Through experiments across eight LLMs of varying scales and four standard NER datasets, we find that: (1) With parameter-efficient fine-tuning and structured formats like inline bracketed or XML, open-source LLMs achieve performance competitive with traditional encoder-based models and surpass closed-source LLMs like GPT-3; (2) The NER capability of LLMs stems from instruction-following and generative power, not mere memorization of entity-label pairs; and (3) Applying NER instruction tuning has minimal impact on general capabilities of LLMs, even improving performance on datasets like DROP due to enhanced entity understanding. These findings demonstrate that generative NER with LLMs is a promising, user-friendly alternative to traditional methods.
+Named entity recognition (NER) is evolving from a sequence labeling task into a generative paradigm with the rise of large language models (LLMs). In this work, we conduct a systematic assessment of open-source LLMs on both flat and nested NER tasks.
+
 <div align="center">
-  <img src="assets/output_formats.png" width="100%" />
+  <img src="assets/intro.png" width="50%" alt="Traditional NER (sequence labeling) vs. generative NER with LLMs">
 </div>
+
+Specifically, we investigate four research questions:
+
+- **RQ1 — Performance.** Is generative NER with open-source LLMs a reliable approach compared with advanced pre-trained (encoder-based) NER models?
+- **RQ2 — Output format.** How do different output formats affect generative NER? We design five formats: *Inline Bracketed*, *Inline XML*, *Category-grouped JSON*, *Occurrence-based JSON*, and *Offset-based JSON*.
+- **RQ3 — Recognition or memorization.** Do LLMs rely on memorization of entity labels to solve NER tasks?
+- **RQ4 — General capability.** Do LLMs preserve the original capabilities after instruction tuning for NER?
+
+Through experiments across eight LLMs of varying scales and four standard NER datasets, we find that:
+
+1. With parameter-efficient fine-tuning and structured formats like inline bracketed or XML, open-source LLMs achieve performance competitive with traditional encoder-based models and surpass decoder-based LLMs with in-context learning techniques.
+2. The NER capability of LLMs stems from instruction-following and generative power, not mere memorization of entity-label pairs.
+3. Applying NER instruction tuning has minimal impact on general capabilities of LLMs, even improving performance on datasets like DROP by 25.50 to 45.32 F1 points due to enhanced entity understanding.
+
+These findings demonstrate that generative NER with LLMs is a promising, user-friendly alternative to traditional methods.
 
 ---
 
 ## 📊Main Results
 
+We report Micro-F1 scores to compare advanced pre-trained NER models, closed-source LLMs with in-context learning, and open-source LLMs across different output formats for both flat and nested NER.
+
+- **Flat NER**
+
 <div align="center">
-  <img src="assets/main_results.png" width="90%" />
+  <img src="assets/results_flat.png" width="70%" alt="Flat NER results: pre-trained models, GPT-NER, and open-source LLMs under five output formats">
+</div>
+
+- **Nested NER**
+
+<div align="center">
+  <img src="assets/results_nested.png" width="70%" alt="Nested NER results: pre-trained models, GPT-NER, and open-source LLMs under five output formats">
 </div>
 
 ---
@@ -114,7 +140,6 @@ lm-eval run --config evaluation/eval_config.yaml # evaluate
 ## 🎈Citation
 
 If you find this work useful for your research, please consider citing our paper:
-
 ```bibtex
 @article{zhan2026assessmentgenerativenamedentity,
   title={Assessment of Generative Named Entity Recognition in the Era of Large Language Models},
